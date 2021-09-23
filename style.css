@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    font-size: 30px;
+    text-align: center;
+    color: cadetblue;
+    font-family: cursive;
+    font-weight: 800;
+}
+.game-body{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0px auto;
+    max-width: 500px;
+    max-height: 500px;
+    /* border: solid 5px black; */
+    padding: 0;
+    border-radius: 5px;
+}
+.box{
+    height: 100px;
+    border: solid 3px black;
+    cursor: pointer;
+    /* padding: auto auto; */
+    font-size: 3rem;
+    font-family: cursive;
+    color: yellow;
+    text-align: center;
+}
+#message{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+#newGame{
+    text-align: center;
+    margin: 30px 100px;
+}
